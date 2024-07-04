@@ -1,0 +1,947 @@
+[
+    {
+    "question": ":small_blue_diamond: What is the command used to clone a Git repository? :hourglass_flowing_sand:",
+    "answers": ["git clone", "git init", "git pull", "git cloning"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is Git? :hourglass_flowing_sand:",
+    "answers": ["A version control system for tracking changes in code", "A programming language", "An operating system", "A type of database that tracks changes"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is GitHub? :hourglass_flowing_sand:",
+    "answers": ["A web-based Git repository hosting service", "A programming language", "An operating system", "A type of database"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the difference between Git and GitHub? :hourglass_flowing_sand:",
+    "answers": ["Git is a version control system while GitHub is a web-based Git repository hosting service", "Git and GitHub are the same thing", "GitHub is a programming language while Git is an operating system", "Git and GitHub are both types of databases"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: How to create a repository? :hourglass_flowing_sand:",
+    "answers": ["Use the 'git init' command in your terminal", "Use the 'git create' command in your terminal", "Use the 'git repo' command in your terminal", "Use the 'git checkout' command in your terminal"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: How to commit? :hourglass_flowing_sand:",
+    "answers": ["Use the 'git commit' command in your terminal", "Use the 'git com' command in your terminal", "Use the 'git -commit' command in your terminal", "Use the 'git c' command in your terminal"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: How to push code? :hourglass_flowing_sand:",
+    "answers": ["Use the 'git push' command in your terminal", "Use the 'git push all' command in your terminal", "Use the 'git Push' command in your terminal", "Use the 'git -p' command in your terminal"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: How to pull updates? :hourglass_flowing_sand:",
+    "answers": ["Use the 'git pull' command in your terminal", "Use the 'git poll' command in your terminal", "Use the 'git p' command in your terminal", "Use the 'git pull .' command in your terminal"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: How to create a branch? :hourglass_flowing_sand:",
+    "answers": ["Use the 'git branch' command in your terminal", "Use the 'git branch create' command in your terminal", "Use the 'git checkout' command in your terminal", "Use the 'git clone' command in your terminal"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: How to merge branches? :hourglass_flowing_sand:",
+    "answers": ["Use the 'git merge' command in your terminal", "Use the 'git merging' command in your terminal", "Use the 'git -m' command in your terminal", "Use the 'git init' command in your terminal"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: Which files should and which files should not appear in your repository? :hourglass_flowing_sand:",
+    "answers": ["Files that are necessary for your project to run should be added to the repository, while files that are generated automatically or that contain sensitive information should be excluded", "All files, including those generated automatically or that contain sensitive information, should be added to the repository", "Only files that are generated automatically should be added to the repository, while files that contain sensitive information should be excluded", "Only files that are necessary for your project to run should be added to the repository, while files that are generated automatically or that contain sensitive information should be included"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What do the commands ls, less, file do? :hourglass_flowing_sand:",
+    "answers": ["ls lists the files and directories in the current directory, less is a pager that allows you to view the contents of a file one page at a time, file determines the file type of a given file", "ls determines the file type of a given file, less lists the files and directories in the current directory, file is a pager that allows you to view the contents of a file one page at a time", "file lists the files and directories in the current directory, less determines the file type of a given file, ls is a pager that allows you to view the contents of a file one page at a time", "less determines the file type of a given file, file is a pager that allows you to view the contents of a file one page at a time, ls lists the files and directories in the current directory"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What do the commands cp, mv, rm, mkdir do? :hourglass_flowing_sand:",
+    "answers": ["cp copies a file or directory, mv moves or renames a file or directory, rm removes a file or directory, mkdir creates a new directory", "cp copies or renames a file or directory, mv removes a file or directory, rm creates a new directory, mkdir copies a file or directory", "cp copies a new directory, mv copies a file or directory, rm moves or renames a file or directory, mkdir removes a file or directory", "cp removes a file or directory, mv creates a new directory, rm copies a file or directory, mkdir moves or renames a file or directory"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What does the command chmod do? :hourglass_flowing_sand:",
+    "answers": ["Changes the permissions of a file or directory", "Changes the ownership of a file or directory", "Changes the group ownership of a file or directory", "Changes the timestamp of a file or directory"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What does the command sudo do? :hourglass_flowing_sand:",
+    "answers": ["Allows a user to execute a command with elevated privileges", "Changes the permissions of a file or directory", "Changes the ownership of a file or directory", "Changes the group ownership of a file or directory"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What does the command su do? :hourglass_flowing_sand:",
+    "answers": ["Switches to a different user account", "Changes the permissions of a file or directory", "Changes the ownership of a file or directory", "Changes the group ownership of a file or directory"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What does the command chown do? :hourglass_flowing_sand:",
+    "answers": ["Changes the ownership of a file or directory", "Changes the permissions of a file or directory", "Changes the group ownership of a file or directory", "Changes the timestamp of a file or directory"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What does the command chgrp do? :hourglass_flowing_sand:",
+    "answers": ["Changes the group ownership of a file or directory", "Changes the permissions of a file or directory", "Changes the ownership of a file or directory", "Changes the timestamp of a file or directory"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the syntax to declare a pointer variable in C? :hourglass_flowing_sand:",
+    "answers": ["int *ptr;", "ptr int;", "ptr int;", "int ptr;"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the difference between ++i and i++ in C? :hourglass_flowing_sand:",
+    "answers": ["++i increments the value of i before it is used in an expression, while i++ increments the value of i after it is used in an expression", "++i and i++ are equivalent and can be used interchangeably", "++i increments the value of i by 2, while i++ increments the value of i by 1", "There is no difference between ++i and i++"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the difference between 'int' and 'long int' data types in C programming language? :hourglass_flowing_sand:",
+    "answers": ["'int' is a 32-bit data type, while 'long int' is a 64-bit data type", "'int' is a 64-bit data type, while 'long int' is a 32-bit data type", "'int' and 'long int' are completely interchangeable in C programming language", "None of the above"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the purpose of the 'extern' keyword in C? :hourglass_flowing_sand:",
+    "answers": ["To declare a variable or function that is defined in another file or module", "To declare a constant value", "To specify the storage class of a variable", "To indicate that a variable or function should not be optimized"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the syntax for defining a structure in C? :hourglass_flowing_sand:",
+    "answers": ["struct <structure_name> { <member1_data_type> <member1_name>; <member2_data_type> <member2_name>; ... }", "struct { <member1_data_type> <member1_name>; <member2_data_type> <member2_name>; ... } <structure_name>;", "struct <structure_name> <member1_data_type> <member1_name>, <member2_data_type> <member2_name>, ... ;", "struct <structure_name> <member1_data_type> <member1_name> { <member2_data_type> <member2_name>; ... }"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is a typedef in C? :hourglass_flowing_sand:",
+    "answers": ["A way to define a new type name for an existing data type", "A way to declare a function that is defined in another file or module", "A way to specify the storage class of a variable", "A way to declare a variable or function that should not be optimized"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the default shell in most Linux distributions? :hourglass_flowing_sand:",
+    "answers": ["Bash", "Zsh", "Shell", "Dash"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the purpose of the 'echo' command in the shell? :hourglass_flowing_sand:",
+    "answers": ["Print a message to the standard output", "Create a new directory", "Change the ownership of a file", "List the contents of a directory"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: Which command is used to display the contents of a file in the shell? :hourglass_flowing_sand:",
+    "answers": ["cat", "ls", "pwd", "cd"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the purpose of the 'grep' command in the shell? :hourglass_flowing_sand:",
+    "answers": ["Search for a pattern in a file or stream", "Copy files and directories", "Move files and directories", "Remove files and directories"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the purpose of the 'tar' command in the shell? :hourglass_flowing_sand:",
+    "answers": ["Create a compressed archive of files and directories", "List the contents of a compressed archive", "Extract the contents of a compressed archive", "Copy files and directories"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: Which command is used to display the environment variables in the shell? :hourglass_flowing_sand:",
+    "answers": ["env", "set", "export", "envprint"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the purpose of the 'tee' command in the shell? :hourglass_flowing_sand:",
+    "answers": ["Read from standard input and write to standard output and files", "Copy files and directories", "Change the ownership of a file", "Create a new directory"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the purpose of the 'sort' command in the shell? :hourglass_flowing_sand:",
+    "answers": ["Sort lines of text files", "Search for a pattern in a file or stream", "Copy files and directories", "Move files and directories"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: Which command is used to create a symbolic link in the shell? :hourglass_flowing_sand:",
+    "answers": ["ln -s", "ln -sy", "ln -fs", "ln -sl"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the purpose of the 'tr' command in the shell? :hourglass_flowing_sand:",
+    "answers": ["Translate or delete characters", "Create a new directory", "Change the ownership of a file", "List the contents of a directory"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the purpose of the 'history' command in the shell? :hourglass_flowing_sand:",
+    "answers": ["Display the command history", "Copy files and directories", "Move files and directories", "Remove files and directories"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the purpose of the 'const' keyword in C? :hourglass_flowing_sand:",
+    "answers": ["The 'const' keyword is used to declare a variable as read-only, meaning its value cannot be changed once it is set", "The 'const' keyword is used to declare a variable as write-only, meaning its value can only be set but not read", "The 'const' keyword is used to declare a variable as both read and write", "The 'const' keyword is used to declare a variable as a constant value"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is a structure in C? :hourglass_flowing_sand:",
+    "answers": ["A structure is a collection of variables of different data types under a single name", "A structure is a type of loop used in C programming", "A structure is a block of code that performs a specific task and can be called from other parts of a program", "A structure is a variable that stores the memory address of another variable"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the difference between a static and global variable in C? :hourglass_flowing_sand:",
+    "answers": ["A local variable is only accessible within the function it is declared, while a global variable can be accessed throughout the entire program", "A global variable is only accessible within the function it is declared, while a static variable can be accessed throughout the entire program", "A static variable is only accessible within the block it is declared, while a global variable can be accessed throughout the entire program", "Both static and global variables are only accessible within the function they are declared"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the difference between a for loop and a while loop in C? :hourglass_flowing_sand:",
+    "answers": ["A for loop is used when the number of iterations is known, while a while loop is used when the number of iterations is unknown", "A while loop is used when the number of iterations is known, while a for loop is used when the number of iterations is unknown", "There is no difference between a for loop and a while loop in C", "A for loop is used for iterating over arrays, while a while loop is used for iterating over linked lists"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the difference between a local and remote Git repository? :hourglass_flowing_sand:",
+    "answers": ["A local repository is stored on your computer, while a remote repository is stored on a server", "A local repository is stored on a server, while a remote repository is stored on your computer", "There is no difference between a local and remote repository", "A local repository is used for testing, while a remote repository is used for production"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the command to compile a C program? :hourglass_flowing_sand:",
+    "answers": ["gcc", "make", "python", "javac"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is a branch in Git? :hourglass_flowing_sand:",
+    "answers": ["A separate line of development within a repository", "A remote server where the repository is stored", "A type of data structure", "A directory on your computer"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the difference between a compiler and an interpreter in C? :hourglass_flowing_sand:",
+    "answers": ["A compiler translates the entire program into machine code, while an interpreter translates one line at a time", "A compiler translates one line at a time, while an interpreter translates the entire program into machine code", "Both a compiler and an interpreter translate the entire program into machine code", "Both a compiler and an interpreter translate one line at a time"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the difference between a local variable and a global variable in C? :hourglass_flowing_sand:",
+    "answers": ["A local variable is declared inside a function and can only be accessed within that function, while a global variable is declared outside any function and can be accessed throughout the entire program", "A global variable is declared inside a function and can only be accessed within that function, while a local variable is declared outside any function and can be accessed throughout the entire program", "Both local and global variables can be accessed within any function in the program", "There is no difference between local and global variables"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the purpose of the 'malloc' function in C? :hourglass_flowing_sand:",
+    "answers": ["To allocate a block of memory on the heap", "To convert a variable or data type to a string", "To perform arithmetic operations on variables or data types", "To compare two variables or data types"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the difference between 'scanf' and 'printf' in C? :hourglass_flowing_sand:",
+    "answers": ["'scanf' reads input from the user and stores it in a variable, while 'printf' displays output to the user", "'printf' reads input from the user and stores it in a variable, while 'scanf' displays output to the user", "Both 'scanf' and 'printf' read input from the user and store it in a variable", "Both 'scanf' and 'printf' display output to the user"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the difference between 'int' and 'char' data types in C? :hourglass_flowing_sand:",
+    "answers": ["'int' is used to store integer values, while 'char' is used to store single characters", "'char' is used to store integer values, while 'int' is used to store single characters", "Both 'int' and 'char' are used to store integer values", "Both 'int' and 'char' are used to store single characters"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is a 'void' pointer in C? :hourglass_flowing_sand:",
+    "answers": ["A pointer that can point to any data type, but cannot be dereferenced", "A pointer that can only point to integer data types", "A pointer that can only point to string data types", "A pointer that can only point to floating-point data types"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the difference between 'git pull' and 'git fetch'? :hourglass_flowing_sand:",
+    "answers": ["'git pull' retrieves the changes from the remote repository and merges them into the local repository, while 'git fetch' retrieves the changes from the remote repository but does not merge them into the local repository", "'git pull' and 'git fetch' are the same command", "'git pull' retrieves the changes from the local repository and merges them into the remote repository, while 'git fetch' retrieves the changes from the remote repository and merges them into the local repository", "'git pull' and 'git fetch' are two different commands used for the same purpose"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: In the Unix shell, what does the symbol '~' represent?",
+    "answers": ["The home directory of the current user", "The root directory of the file system", "The current directory", "The directory above the current directory"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What command is used to run a shell script?",
+    "answers": ["sh", "script", "execute", "run"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What does the `head` command do in Unix/Linux?",
+    "answers": ["Displays the first few lines of a file", "Displays the last few lines of a file", "Counts the number of lines in a file", "Removes duplicate lines from a file"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What does the `tail` command do in Unix/Linux?",
+    "answers": ["Displays the last few lines of a file", "Displays the first few lines of a file", "Counts the number of lines in a file", "Removes duplicate lines from a file"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What does the `find` command do in Unix/Linux?",
+    "answers": ["Searches for files and directories in a specified location", "Counts the number of lines in a file", "Removes duplicate lines from a file", "Displays the first few lines of a file"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What does the `wc` command do in Unix/Linux?",
+    "answers": ["Counts the number of lines, words, and characters in a file", "Counts the number of lines and displays the last few lines of a file", "Displays the first few lines of a file", "Counts the number of files in a directory"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What does the `uniq` command do in Unix/Linux?",
+    "answers": ["Removes duplicate lines from a file", "Displays the first few lines of a file", "Displays the last few lines of a file", "Counts the number of lines in a file"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What does the `rev` command do in Unix/Linux?",
+    "answers": ["Reverses the characters in each line of a file", "Displays the last few lines of a file", "Displays the first few lines of a file", "Counts the number of lines in a file"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the correct syntax for declaring a variable in C? :hourglass_flowing_sand:",
+    "answers": ["int x;", "var x;", "variable x;", "vb x;"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: Which of the following is NOT a valid C data type? :hourglass_flowing_sand:",
+    "answers": ["double", "char", "string", "float"],
+    "correct_answer": 2
+    },
+    {
+    "question": ":small_blue_diamond: What is the purpose of the break keyword in a switch statement in C?",
+    "answers": ["To terminate the switch statement and exit the block", "To continue to the next case in the switch statement", "To skip the current case in the switch statement and continue with the next case", "To restart the switch statement from the beginning"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the purpose of the fgets() function in C?",
+    "answers": ["To read a line of text from a file or standard input", "To write a line of text to a file or standard output", "To append a line of text to a file", "To clear the contents of a file"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the difference between a postfix increment and a prefix increment in C?",
+    "answers": ["A postfix increment returns the value of the variable before it is incremented, while a prefix increment returns the value of the variable after it is incremented", "A postfix increment returns the value of the variable after it is incremented, while a prefix increment returns the value of the variable before it is incremented", "There is no difference between a postfix increment and a prefix increment in C", "A postfix increment only increments the variable by 1, while a prefix increment can increment the variable by any value"],
+    "correct_answer": 1
+    },
+    {
+    "question": ":small_blue_diamond: What is the purpose of the `fseek` function in C?",
+    "answers": ["To set the position indicator of a file stream", "To read a line of text from a file or standard input", "To write a line of text to a file or standard output", "To clear the contents of a file"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the difference between the `calloc()` and `malloc()` functions in C?",
+    "answers": ["`calloc()` is used to allocate memory for an array of elements while `malloc()` is used to allocate memory for a single element", "`calloc()` initializes the allocated memory to 0 while `malloc()` does not initialize the memory", "`malloc()` sets the allocated memory to zero or NULL, while `calloc()` does not initialize the memory.", "`malloc()` can only be used to allocate memory on the heap while `calloc()` can allocate memory on both the stack and the heap"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: Which of the following is not a valid identifier in C?",
+    "answers": ["my_var", "_myvar", "myVar", "1myvar"],
+    "correct_answer": 3
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following code in C? ```\n int x = 0, y = 0; \n if (x = y++) \n printf(\"%d\", x);```",
+    "answers": ["0", "1", "Compiler error", "Undefined behavior"],
+    "correct_answer": 1
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following code in C? ```\n int a = 5, b = 7, c = 10; \n printf(\"%d\", a+++b+++c);```",
+    "answers": ["22", "23", "24", "25"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following code in C? ```\n int a = 10, b = 5; \n printf(\"%d\", a > b ? a : b);```",
+    "answers": ["10", "5", "0", "Compiler error"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following code in C? ```\n int arr[] = {1, 2, 3}; \n printf(\"%d\", *(arr + 1));```",
+    "answers": ["1", "2", "3", "Compiler error"],
+    "correct_answer": 1
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following code in C? ```\n int arr[] = {1, 2, 3, 4, 5}; \n int *p = arr; \n *(p + 2) = 6; \n printf(\"%d\", arr[2]);```",
+    "answers": ["1", "2", "3", "6"],
+    "correct_answer": 3
+    },
+    {
+    "question": ":small_blue_diamond: What is the difference between `static` and `extern` variables in C?",
+    "answers": ["`static` variables have global scope, while `extern` variables have local scope", "`static` variables have local scope, while `extern` variables have global scope", "`static` and `extern` variables are identical and there is no difference in their behavior", "`static` variables are stored on the heap while `extern` variables are stored on the stack"],
+    "correct_answer": 2
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following code in C? ```\n int x = 10; \n int y = 20; \n int *p = &x; \n *p = y; \n printf(\"%d %d\", x, y);```",
+    "answers": ["10 20", "20 20", "10 10", "Undefined behavior"],
+    "correct_answer": 1
+    },
+    {
+    "question": ":small_blue_diamond: What is the difference between a `stack` and a `queue` data structure?",
+    "answers": ["A stack is first-in-first-out (FIFO), while a queue is last-in-first-out (LIFO)", "A stack is last-in-first-out (LIFO), while a queue is first-in-first-out (FIFO)", "There is no difference, they are identical data structures", "A stack is a type of data structure used for storing sorted data, while a queue is used for storing unsorted data."],
+    "correct_answer": 1
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following code in C? ```\n int arr[] = {1, 2, 3, 4, 5}; \n int *p = arr; \n p += 2; \n printf(\"%d\", *p);```",
+    "answers": ["1", "2", "3", "4"],
+    "correct_answer": 2
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following code in C? ```\n int a = 5, b = 7; \n printf(\"%d\", a+++b);```",
+    "answers": ["11", "12", "13", "Compiler error"],
+    "correct_answer": 1
+    },
+    {
+    "question": ":small_blue_diamond: What is the difference between `char* s` and `char s[]` in C?",
+    "answers": ["There is no difference, they are interchangeable", "`char* s` is a pointer to a character, while `char s[]` is an array of characters", "`char s[]` is an array of characters, while `char* s` is a pointer to a character", "The difference between `char* s` and `char s[]` in C is that `char* s` is used for declaring a single character string, while `char s[]` is used for declaring a multi-character string."],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following code in C? ```\n int x = 0, y = 1; \n printf(\"%d\", x || y);```",
+    "answers": ["0", "1", "Compiler error", "Undefined behavior"],
+    "correct_answer": 1
+    },
+    {
+    "question": ":small_blue_diamond: What is the difference between `memset` and `memcpy` in C?",
+    "answers": ["`memset` copies a block of memory from one location to another, while `memcpy` sets a block of memory to a specific value", "`memcpy` copies a block of memory from one location to another, while `memset` sets a block of memory to a specific value", "`memset` and `memcpy` are equivalent and there is no difference in their behavior", "`memcpy` is more efficient than `memset` when dealing with large blocks of memory"],
+    "correct_answer": 1
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following code in C? ```\n int arr[] = {1, 2, 3, 4, 5}; \n printf(\"%d\", *(arr + 2));```",
+    "answers": ["1", "2", "3", "4"],
+    "correct_answer": 2
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following code in C? ```\n int a = 1, b = 1, c = 1; \n printf(\"%d\", a+++b+c+++a+++b);```",
+    "answers": ["6", "7", "8", "9"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following code in C? ```\n\nchar str[] = \"hello\";\nstr[0] = 'H';\nprintf(\"%s\", str);```",
+    "answers": ["Hello", "hello", "hEllo", "Error"],
+    "correct_answer": 1
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following code in C? ```\n\n#include <stdio.h>\nint main()\n{\n    int x = 5;\n    printf(\"%d\", x+++x);\n    return 0;\n}\n```",
+    "answers": ["10", "11", "12", "Compilation error"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: Which of the following statements about C arrays is true?",
+    "answers": ["An array cannot be passed as an argument to a function", "An array can only hold elements of different types", "The size of an array must be known at compile-time", "Arrays are implemented as pointers in C"],
+    "correct_answer": 2
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following code in C? ```\n\n#include <stdio.h>\nint main()\n{\n    int arr[] = {1, 2, 3};\n    int *p = arr;\n    printf(\"%d\", ++*p);\n    return 0;\n}\n```",
+    "answers": ["2", "3", "4", "Compilation error"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: Which of the following operators has the highest precedence in C?",
+    "answers": ["&&", "==", "*", "++"],
+    "correct_answer": 2
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following code in C? ```\n\n#include <stdio.h>\nvoid fun(int *p)\n{\n    *p = 10;\n}\nint main()\n{\n    int x = 5;\n    fun(&x);\n    printf(\"%d\", x);\n    return 0;\n}\n```",
+    "answers": ["5", "10", "Segmentation fault", "Compilation error"],
+    "correct_answer": 1
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following code in C? ```\n\n#include <stdio.h>\nint main()\n{\n    int i = 0;\n    for (i = 0; i < 5; i++)\n    {\n        if (i == 3)\n            continue;\n        printf(\"%d \", i);\n    }\n    return 0;\n}\n```",
+    "answers": ["0 1 2 4", "1 2 4", "0 1 2 3 4", "None of the above"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following code in C? ```\n\n#include <stdio.h>\nint main()\n{\n    char arr[10];\n    printf(\"%lu\", sizeof(arr));\n    return 0;\n}\n```",
+    "answers": ["10", "1", "8", "Compilation error"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: Which of the following is not a valid storage class specifier in C?",
+    "answers": ["auto", "register", "static", "volatile"],
+    "correct_answer": 3
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following code in C? ```\n\n#include <stdio.h>\nint main()\n{\n    int x = 5;\n    int *p = &x;\n    printf(\"%d\", p[-1]);\n    return 0;\n}\n```",
+    "answers": ["-1", "0", "4", "Compilation error"],
+    "correct_answer": 3
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n\n#include <stdio.h>\nint main()\n{\n    char s[] = \"Hello, World!\";\n    char *p = s;\n    printf(\"%c\", *(++p));\n    return 0;\n}\n```",
+    "answers": ["e", "H", "l", "o"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n\n#include <stdio.h>\nvoid fun(int n)\n{\n    if (n > 0)\n    {\n        printf(\"%d \", n);\n        fun(n-1);\n        fun(n-1);\n    }\n}\nint main()\n{\n    fun(3);\n    return 0;\n}\n```",
+    "answers": ["1 2 4 8 7 5 3", "3 2 1 1 2 1 1", "3 2 1 2 3 2 1", "1 1 1 2 1 2 3"],
+    "correct_answer": 1
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n\n#include <stdio.h>\nint main()\n{\n    int x = 5, y = 10;\n    int *ptr1 = &x, *ptr2 = &y;\n    int temp = *ptr1;\n    *ptr1 = *ptr2;\n    *ptr2 = temp;\n    printf(\"%d %d\", x, y);\n    return 0;\n}\n```",
+    "answers": ["5 10", "10 5", "0 0", "Compilation error"],
+    "correct_answer": 1
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n\n#include <stdio.h>\nint main()\n{\n    int arr[] = {1, 2, 3};\n    int *p = arr;\n    p[1] = ++*p;\n    printf(\"%d %d %d\", arr[0], arr[1], arr[2]);\n    return 0;\n}\n```",
+    "answers": ["1 3 3", "2 3 3", "1 2 3", "Compilation error"],
+    "correct_answer": 1
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n\n#include <stdio.h>\nstruct node\n{\n    int data;\n    struct node *next;\n};\nint main()\n{\n    struct node n1, n2, n3;\n    n1.data = 1;\n    n2.data = 2;\n    n3.data = 3;\n    n1.next = &n2;\n    n2.next = &n3;\n    n3.next = NULL;\n    printf(\"%d %d %d\", n1.data, n1.next->data, n1.next->next->data);\n    return 0;\n}\n```",
+    "answers": ["1 2 3", "3 2 1", "1 3 2", "Compilation error"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n\n#include <stdio.h>\nint main()\n{\n    int arr[4][4] = {{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}, {13, 14, 15, 16}};\n    int (*p)[4] = arr;\n    printf(\"%d\", *(*(p+1)+1));\n    return 0;\n}\n```",
+    "answers": ["2", "6", "10", "14"],
+    "correct_answer": 1
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n\n#include <stdio.h>\nint fun(int n)\n{\n    if (n == 0 || n == 1)\n        return 1;\n    else\n        return fun(n-1) + fun(n-2);\n}\nint main()\n{\n    int n = 5;\n    printf(\"%d\", fun(n));\n    return 0;\n}\n```",
+    "answers": ["3", "5", "8", "13"],
+    "correct_answer": 2
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n\n#include <stdio.h>\nint main()\n{\n    int x = 10, y = 5;\n    int *p = &x, *q = &y;\n    p = q;\n    *p = 6;\n    printf(\"%d %d\", x, y);\n    return 0;\n}\n```",
+    "answers": ["10 5", "6 5", "10 6", "6 6"],
+    "correct_answer": 3
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n\n#include <stdio.h>\nint main()\n{\n    int arr[5] = {1, 2, 3, 4, 5};\n    int *p = arr+1;\n    printf(\"%d\", *(p--));\n    return 0;\n}\n```",
+    "answers": ["1", "2", "3", "4"],
+    "correct_answer": 1
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n\n#include <stdio.h>\nint main()\n{\n    char str[] = \"Hello, World!\";\n    int i, j;\n    for (i = 0, j = strlen(str)-1; i < j; i++, j--)\n    {\n        char temp = str[i];\n        str[i] = str[j];\n        str[j] = temp;\n    }\n    printf(\"%s\", str);\n    return 0;\n}\n```",
+    "answers": ["Hello, World!", "!dlroW ,olleH", "dlroW ,olleH!", "!dlroW olleH,"],
+    "correct_answer": 1
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n\n#include <stdio.h>\nint main()\n{\n    int n = 5;\n    while (n--)\n    {\n        if (n == 2)\n            continue;\n        printf(\"%d \", n);\n    }\n    return 0;\n}\n",
+    "answers": ["4 3 2 1 0", "0 1 3 4", "4 3 1 0", "3 1 0"],
+    "correct_answer": 2
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n\n#include <stdio.h>\nint main()\n{\n    int arr[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};\n    int i, j, sum = 0;\n    for (i = 0; i < 3; i++)\n    {\n        for (j = 0; j < 3; j++)\n        {\n            if (i == j)\n                continue;\n            sum += arr[i][j];\n        }\n    }\n    printf(\"%d\", sum);\n    return 0;\n}\n```",
+    "answers": ["11", "18", "24", "28"],
+    "correct_answer": 3
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following code in C? ```\n int arr[] = {1, 2, 3}; \n printf(\"%d\", arr[1]);```",
+    "answers": ["1", "2", "3", "Compiler error"],
+    "correct_answer": 1
+    },
+    {
+    "question": ":small_blue_diamond: What is the purpose of the strcpy function in C?",
+    "answers": ["To copy a string from one array to another", "To concatenate two strings together", "To compare two strings", "To convert a string to uppercase"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the difference between a do-while loop and a while loop in C?",
+    "answers": ["A do-while loop is a post-test loop, while a while loop is a pre-test loop", "A do-while loop is a pre-test loop, while a while loop is a post-test loop", "There is no difference, they are identical loops", "do-while loops are used for iterating over arrays, while while loops are used for iterating over linked lists"],
+    "correct_answer": 1
+    },
+    {
+    "question": ":small_blue_diamond: What is the difference between a struct and a union in C?",
+    "answers": ["A struct is a collection of related data items of different data types, while a union is a single data item that can store data of different data types", "A struct is a single data item that can store data of different data types, while a union is a collection of related data items of different data types", "struct and union are identical and there is no difference in their behavior", "A struct can only be used to store numeric data types, while a union can store any data type"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the purpose of the union keyword in C?",
+    "answers": ["To define a user-defined data type that can hold variables of different data types, but only one at a time", "To define a user-defined data type that holds variables of the same data type", "To import another module into the current program", "To declare a variable as a constant"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the difference between a macro and a function in C?",
+    "answers": ["A macro is a preprocessor directive that performs text substitution, while a function is a block of code that can be called with arguments", "A function is a preprocessor directive that performs text substitution, while a macro is a block of code that can be called with arguments", "There is no difference between a macro and a function", "A macro and a function are used for different programming paradigms"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the purpose of the volatile keyword in C?",
+    "answers": ["To tell the compiler that a variable's value may change at any time, even if it appears not to be modified", "To tell the compiler to optimize access to a variable for performance reasons", "To declare a variable as a constant that cannot be changed", "To specify the scope of a variable"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is a recursive function in C?",
+    "answers": ["A function that calls itself", "A function that accepts multiple arguments", "A function that returns a pointer to an array", "A function that can only be called from within a loop"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the difference between a function pointer and a pointer to a function in C?",
+    "answers": ["A function pointer is a variable that stores the address of a function, while a pointer to a function is a type definition that specifies the signature of a function", "A pointer to a function is a variable that stores the address of a function, while a function pointer is a type definition that specifies the signature of a function", "There is no difference between a function pointer and a pointer to a function", "A function pointer and a pointer to a function are used for different programming paradigms"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the difference between a typedef and a #define in C?",
+    "answers": ["A typedef creates an alias for a data type, while a #define creates a text substitution", "A #define creates an alias for a data type, while a typedef creates a text substitution", "There is no difference between a typedef and a #define in C", "A typedef and a #define are used for different programming paradigms"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is dynamic memory allocation in C?",
+    "answers": ["The process of allocating memory during program execution rather than at compile time", "The process of allocating memory at compile time rather than during program execution", "The process of deallocating memory during program execution", "The process of deallocating memory at compile time"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is a linked list in C?",
+    "answers": ["A data structure consisting of a sequence of nodes, where each node contains a value and a reference to the next node in the sequence", "A data structure consisting of a fixed-size collection of elements of the same data type", "A data structure consisting of a two-dimensional array", "A data structure consisting of a stack and a queue"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n\n#include <stdio.h>\nint main()\n{\n    char arr[] = {'a', 'b', 'c', 'd', 'e'};\n    char *p = arr;\n    printf(\"%c\", *(p+3));\n    return 0;\n}\n```",
+    "answers": ["a", "b", "c", "d"],
+    "correct_answer": 3
+    },
+    {
+    "question": ":small_blue_diamond: Which of the following is not a bitwise operator in C?",
+    "answers": ["&", "|", "^", "<<<"],
+    "correct_answer": 3
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n\n#include <stdio.h>\nint main()\n{\n    int arr[] = {1, 2, 3, 4, 5};\n    int *p = arr + 3;\n    printf(\"%d\", p[-2]);\n    return 0;\n}\n```",
+    "answers": ["2", "3", "4", "5"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n\n#include <stdio.h>\nint main()\n{\n    int arr[5] = {0};\n    printf(\"%d\", arr[4]);\n    return 0;\n}\n```",
+    "answers": ["0", "4", "5", "Undefined behavior"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n\n#include <stdio.h>\nint main()\n{\n    int a = 10, b = 20, c = 30;\n    int *p[] = {&a, &b, &c};\n    printf(\"%d %d %d\", *p[1], **(p+2), **p);\n    return 0;\n}\n```",
+    "answers": ["20 30 10", "20 30 20", "10 20 30", "Compilation error"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: Which of the following is not a valid data type in C?",
+    "answers": ["int", "real", "float", "char"],
+    "correct_answer": 1
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n\n#include <stdio.h>\nint main()\n{\n    int x = 5, y = 10;\n    int *ptr1, *ptr2;\n    ptr1 = &x;\n    ptr2 = &y;\n    *ptr1++;\n    *++ptr2;\n    printf(\"%d %d\", x, y);\n    return 0;\n}\n```",
+    "answers": ["6 11", "5 10", "6 10", "5 11"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is a struct in C?",
+    "answers": ["A user-defined data type that groups related data items of different data types.", "A built-in data type that represents a single character.", "A built-in data type that represents a floating point number.", "A user-defined data type that represents an array of data."],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n   int num = 0, i = 1;\n   while(i <= 10)\n   {\n      if (i % 2 == 0)\n         num += i;\n      i++;\n   }\n   printf(\"%d\",num);\n   return 0;\n}\n```",
+    "answers": ["30", "25", "20", "15"],
+    "correct_answer": 3
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n   char str1[] = \"Hello\", str2[] = \"World\";\n   printf(\"%s %s\\n\",str1,str2);\n   if(str1 == str2)\n      printf(\"Equal\");\n   else\n      printf(\"Not Equal\");\n   return 0;\n}\n```",
+    "answers": ["Hello World Not Equal", "Runtime Error", "Hello World Equal", "Compilation Error"],
+    "correct_answer": 2
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n   int x = 5, y = 10;\n   int *ptr1, *ptr2;\n   ptr1 = &x;\n   ptr2 = &y;\n   *ptr1 = *ptr2;\n   printf(\"%d %d\", x, y);\n   return 0;\n}\n```",
+    "answers": ["10 10", "5 10", "10 5", "5 5"],
+    "correct_answer": 1
+    },
+    {
+    "question": ":small_blue_diamond: What is the purpose of #include directive in C?",
+    "answers": ["To include external header files in the program.", "To define a new preprocessor macro.", "To declare a new variable.", "To create a new function."],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n   int a, b;\n   scanf(\"%d %d\", &a, &b);\n   printf(\"a = %d, b = %d\\n\", a, b);\n   return 0;\n}\n``` If the user enters '3 4' in response to the scanf function",
+    "answers": ["a = 3, b = 4", "b = 3, a = 4", "c = 3, d = 4", "d = 3, c = 4"],
+    "correct_answer": 0
+    },
+    {
+   "question": ":small_blue_diamond: Which of the following is not a primitive data type in C?",
+   "answers": ["int", "char", "boolean", "float"],
+   "correct_answer": 2
+    },
+    {
+   "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n   int x = 5;\n   switch(x)\n   {\n      case 1:\n         printf(\"One\");\n      case 5:\n         printf(\"Five\");\n      case 10:\n         printf(\"Ten\");\n   }\n   return 0;\n}\n```",
+   "answers": ["One Five Ten", "Five Ten", "One Five", "Five"],
+   "correct_answer": 1
+    },
+    {
+   "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n   char str[] = \"Hello World\";\n   printf(\"%c\",str[11]);\n   return 0;\n}\n```",
+   "answers": ["l", "o", "d", "Runtime Error"],
+   "correct_answer": 3
+    },
+    {
+   "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n   int arr[] = {1, 2, 3, 4, 5};\n   printf(\"%d\", *(arr + 2));\n   return 0;\n}\n```",
+   "answers": ["1", "2", "3", "4"],
+   "correct_answer": 2
+    },
+    {
+   "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n   int x = 5, y = 10;\n   if(x < y)\n   {\n      printf(\"%d\",x);\n   }\n   else if(x == y)\n   {\n      printf(\"Equal\");\n   }\n   else\n   {\n      printf(\"%d\",y);\n   }\n   return 0;\n}\n```",
+   "answers": ["5", "10", "Equal", "Compilation Error"],
+   "correct_answer": 0
+    },
+    {
+   "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n   int *ptr;\n   printf(\"%d\", ptr);\n   return 0;\n}\n```",
+   "answers": ["The address of the pointer variable.", "Garbage value.", "0", "Compilation Error"],
+   "correct_answer": 3
+    },
+    {
+   "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n   float x = 3.14;\n   printf(\"%d\", (int)x);\n   return 0;\n}\n```",
+   "answers": ["3", "4", "0", "Runtime Error"],
+   "correct_answer": 0
+    },
+    {
+   "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\n#define square(x) x * x\nint main()\n{\n   int y = 2;\n   printf(\"%d\", square(y+1));\n   return 0;\n}\n```",
+   "answers": ["9", "8", "5", "Compilation Error"],
+   "correct_answer": 1
+    },
+    {
+   "question": ":small_blue_diamond: Which of the following operators has the highest precedence in C?",
+   "answers": ["/", "++", "+", "("],
+   "correct_answer": 3
+    },
+    {
+   "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n   int arr[] = {1, 2, 3, 4, 5};\n   printf(\"%d\", *arr + 2);\n   return 0;\n}\n```",
+   "answers": ["1", "2", "3", "Compilation Error"],
+   "correct_answer": 2
+    },
+    {
+   "question": ":small_blue_diamond: Which of the following is not a valid way to initialize a struct in C?",
+   "answers": ["struct Point p = {0, 0};", "struct Point p = {.x = 0, .y = 0};", "struct Point p;\np.x = 0;\np.y = 0;", "All of the above are valid."],
+   "correct_answer": 2
+    },
+    {
+   "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n   printf(\"%d\", sizeof(int));\n   return 0;\n}\n```",
+   "answers": ["4", "2", "8", "It depends on the machine architecture."],
+   "correct_answer": 0
+    },
+    {
+   "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nvoid swap(int x, int y)\n{\n   int temp = x;\n   x = y;\n   y = temp;\n}\nint main()\n{\n   int a = 3, b = 7;\n   swap(a, b);\n   printf(\"%d %d\", a, b);\n   return 0;\n}\n```",
+   "answers": ["3 7", "7 3", "0 0", "Compilation Error"],
+   "correct_answer": 0
+    },
+    {
+   "question": ":small_blue_diamond: Which of the following is not a valid way to create a C function?",
+   "answers": ["int add(int x, int y) { return x + y; }", "void sub(int x, int y) { printf(\"%d\", x - y); }", "int mult(int x, int y);", "All of the above are valid."],
+   "correct_answer": 2
+    },
+    {
+   "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n   int a = 4, b = 3, c = 6;\n   printf(\"%d\", (a++ * b--) - (--c));\n   return 0;\n}\n```",
+   "answers": ["6", "2", "9", "5"],
+   "correct_answer": 1
+    },
+    {
+   "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n   char arr[] = {'a', 'b', 'c', 'd', 'e'};\n   printf(\"%c\", arr[100]);\n   return 0;\n}\n```",
+   "answers": ["a", "e", "Compilation Error", "Undefined behavior"],
+   "correct_answer": 3
+    },
+    {
+   "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n   int arr[] = {2, 4, 6, 8, 10};\n   int *p[5];\n   for(int i = 0; i < 5; i++)\n   {\n      p[i] = &arr[i];\n   }\n   printf(\"%d %d\", *p[1], *(p[1]+1));\n   return 0;\n}\n```",
+   "answers": ["4 6", "4 8", "6 4", "6 8"],
+   "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: Which of the following operators has the highest precedence in C?",
+    "answers": ["/", "++", "+", "("],
+    "correct_answer": 3
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n   int arr[] = {1, 2, 3, 4, 5};\n   printf(\"%d\", *arr + 2);\n   return 0;\n}\n```",
+    "answers": ["1", "2", "3", "Compilation Error"],
+    "correct_answer": 2
+    },
+    {
+    "question": ":small_blue_diamond: Which of the following is not a valid way to initialize a struct in C?",
+    "answers": ["struct Point p = {0, 0};", "struct Point p = {.x = 0, .y = 0};", "struct Point p;\np.x = 0;\np.y = 0;", "All of the above are valid."],
+    "correct_answer": 2
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n   printf(\"%d\", sizeof(int));\n   return 0;\n}\n```",
+    "answers": ["4", "2", "8", "It depends on the machine architecture."],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nvoid swap(int x, int y)\n{\n   int temp = x;\n   x = y;\n   y = temp;\n}\nint main()\n{\n   int a = 3, b = 7;\n   swap(a, b);\n   printf(\"%d %d\", a, b);\n   return 0;\n}\n```",
+    "answers": ["3 7", "7 3", "0 0", "Compilation Error"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: Which of the following is not a valid way to create a C function?",
+    "answers": ["int add(int x, int y) { return x + y; }", "void sub(int x, int y) { printf(\"%d\", x - y); }", "int mult(int x, int y);", "All of the above are valid."],
+    "correct_answer": 2
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n   int a = 4, b = 3, c = 6;\n   printf(\"%d\", (a++ * b--) - (--c));\n   return 0;\n}\n```",
+    "answers": ["6", "2", "9", "5"],
+    "correct_answer": 1
+    },
+    {
+    "question": "What is the output of the following C program?\n\n```\n#include <stdio.h>\nvoid swap(int *x, int *y)\n{\n   int temp = *x;\n   *x = *y;\n   *y = temp;\n}\nint main()\n{\n   int a = 3, b = 7;\n   swap(&a, &b);\n   printf(\"%d %d\", a, b);\n   return 0;\n}\n```",
+    "answers": ["3 7", "7 3", "0 0", "Compilation Error"],
+    "correct_answer": 1
+    },
+    {
+    "question": "What is the output of the following C program?\n\n```\n#include <stdio.h>\n#include <stdlib.h>\nint main()\n{\n   int i = 1;\n   char *p = (char*)&i;\n   if(*p == 1)\n      printf(\"Little Endian\\n\");\n   else\n      printf(\"Big Endian\\n\");\n   return 0;\n}\n```",
+    "answers": ["Little Endian", "Big Endian", "It depends on the machine architecture.", "Compilation Error"],
+    "correct_answer": 0
+    },
+    {
+    "question": "What is the output of the following C program?\n\n```\n#include <stdio.h>\n#include <stdlib.h>\nstruct Node\n{\n   int data;\n   struct Node *next;\n};\nint main()\n{\n   struct Node *head = (struct Node*)malloc(sizeof(struct Node));\n   head->data = 5;\n   head->next = NULL;\n   struct Node *temp = head;\n   for(int i = 4; i >= 1; i--)\n   {\n      struct Node *new_node = (struct Node*)malloc(sizeof(struct Node));\n      new_node->data = i;\n      new_node->next = NULL;\n      temp->next = new_node;\n      temp = temp->next;\n   }\n   while(head != NULL)\n   {\n      printf(\"%d \", head->data);\n      head = head->next;\n   }\n   return 0;\n}\n```",
+    "answers": ["5 4 3 2 1", "1 2 3 4 5", "5 3 4 2 1", "Compilation Error"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nvoid print(int n)\n{\n   if(n > 0)\n   {\n      printf(\"%d\", n);\n      print(n-1);\n      print(n-1);\n   }\n}\nint main()\n{\n   print(3);\n   return 0;\n}\n```",
+    "answers": ["12311231", "12312321", "3211211", "32121321"],
+    "correct_answer": 2
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n   int n = 5;\n   int a[n][n];\n   int i, j, k = 1;\n   for(i = 0; i < n; i++)\n   {\n      for(j = i; j < n; j++)\n      {\n         a[i][j] = k++;\n      }\n   }\n   for(i = 0; i < n; i++)\n   {\n      for(j = 0; j < n; j++)\n      {\n         printf(\"%d \", a[i][j]);\n      }\n      printf(\"\\n\");\n   }\n   return 0;\n}\n```",
+    "answers": ["1 2 3 4 5\n0 6 7 8 9\n0 0 10 11 12\n0 0 0 13 14\n0 0 0 0 15\n", "1 2 3 4 5\n0 6 7 8 9\n0 0 10 11 12\n0 0 0 13 14\n0 0 0 0 0\n", "1 2 3 4 5\n0 6 7 8 9\n0 0 10 11 12\n0 0 0 13 14\n0 0 0 0 1\n", "1 2 3 4 5\n0 6 7 8 9\n0 0 10 11 12\n0 0 0 13 14\n0 0 0 0 15\n"],
+    "correct_answer": 0
+    },
+    {
+    "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nvoid f(int *p)\n{\n   p++;\n}\nint main()\n{\n   int a[] = {1, 2, 3, 4, 5};\n   int *p = a;\n   f(p++);\n   printf(\"%d\", *p);\n   return 0;\n}\n```",
+    "answers": ["1", "2", "3", "Compilation Error"],
+    "correct_answer": 1
+    },
+    {
+   "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n   int i = 5, *p;\n   p = &i;\n   printf(\"%d\", ++*p);\n   return 0;\n}\n```",
+   "answers": ["5", "6", "Compilation Error", "Undefined behavior"],
+   "correct_answer": 1
+    },
+    {
+   "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n   int x = 3, y = 4;\n   if(x = y) printf(\"Equal\");\n   else printf(\"Not equal\");\n   return 0;\n}\n```",
+   "answers": ["Equal", "Not equal", "Compilation Error", "Undefined behavior"],
+   "correct_answer": 0
+    },
+    {
+   "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n   int x = 4;\n   printf(\"%d %d %d\", x++, ++x, x--);\n   return 0;\n}\n```",
+   "answers": ["4 6 5", "5 5 4", "4 5 4", "5 6 5"],
+   "correct_answer": 2
+    },
+    {
+   "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\n#include <stdlib.h>\nint main()\n{\n   int *ptr = (int*) malloc(sizeof(int));\n   free(ptr);\n   free(ptr);\n   return 0;\n}\n```",
+   "answers": ["Compilation Error", "Undefined behavior", "Program crashes", "No output"],
+   "correct_answer": 1
+    },
+    {
+    "question": "What is the output of the following C program? ```\nint a[2][2]={0,1,2,3}; \nprintf(\"%d\" *(a[0]+1));```",
+    "answers": ["0", "1", "2", "3"],
+    "correct_answer": 1
+    },
+    {
+    "question": "What is the output of the following C program? ```\nint a=10, b=20; \nprintf(\"%d\", ++a + --b - a++);```",
+    "answers": ["29", "30", "19", "20"],
+    "correct_answer": 2
+    },
+    {
+    "question": "What is the output of the following C program? ```\n#include<stdio.h>\nvoid main()\n{\n   int x = 1, y = 0;\n   int z = y/x;\n   printf(\"%d\", z);\n}\n```",
+    "answers": ["0", "1", "Garbage value", "Undefined behavior"],
+    "correct_answer": 0
+    },
+    {
+    "question": "What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n    int i = 2;\n    printf(\"%d \", i++ * i++);\n    printf(\"%d\", i);\n    return 0;\n}\n```",
+    "answers": ["8 4", "6 4", "6 5", "8 5"],
+    "correct_answer": 1
+    },
+    {
+    "question": "What is the output of the following C program? ```\n#include<stdio.h>\nint main()\n{\n    int arr[3][2] = { {2, 4}, {6, 8}, {10, 12} };\n    int (*ptr)[2] = arr;\n    printf(\"%d\", **ptr);\n    return 0;\n}\n```",
+    "answers": ["2", "4", "6", "8"],
+    "correct_answer": 0
+    },
+    {
+    "question": "What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n    int x = 10, y = 5;\n    x = x ^ y;\n    y = x ^ y;\n    x = x ^ y;\n    printf(\"%d %d\", x, y);\n    return 0;\n}\n```",
+    "answers": ["5 10", "10 5", "0 5", "5 0"],
+    "correct_answer": 1
+    },
+    {
+    "question": "What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n    char arr[10];\n    printf(\"%d\", sizeof(arr));\n    return 0;\n}\n```",
+    "answers": ["10", "1", "4", "40"],
+    "correct_answer": 0
+    },
+    {
+    "question": "What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n    int i, sum = 0;\n    for(i = 0; i < 5; ++i)\n    {\n        if(i % 2 == 0)\n            continue;\n        sum += i;\n    }\n    printf(\"%d\", sum);\n    return 0;\n}\n```",
+    "answers": ["5", "6", "4", "3"],
+    "correct_answer": 2
+    },
+    {
+    "question": "What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n    int x = 10;\n    if(x == 10)\n    {\n        int x = 5;\n        printf(\"%d\", x);\n    }\n    printf(\"%d\", x);\n    return 0;\n}\n```",
+    "answers": ["5 10", "10 5", "5 5", "10 10"],
+    "correct_answer": 0
+    },
+    {
+    "question": "What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n    int i = 5;\n    int *ptr = &i;\n    printf(\"%d\", ptr);\n    return 0;\n}\n```",
+    "answers": ["5", "Address of i", "Garbage value", "Compilation Error"],
+    "correct_answer": 1
+    },
+    {
+      "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n   int x = 4;\n   printf(\"%d %d %d\", x++, ++x, x--);\n   return 0;\n}\n```",
+      "answers": ["4 6 5", "5 5 4", "4 5 4", "5 6 5"],
+      "correct_answer": 2
+    },
+    {
+      "question": ":small_blue_diamond: What is the output of the following C program? ```\n#include <stdio.h>\n#include <stdlib.h>\nint main()\n{\n   int *ptr = (int*) malloc(sizeof(int));\n   free(ptr);\n   free(ptr);\n   return 0;\n}\n```",
+      "answers": ["Compilation Error", "Undefined behavior", "Program crashes", "No output"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the output of the following C program? `int a[2][2]={0,1,2,3}; printf(\"%d\", *(a[0]+1));`",
+      "answers": ["0", "1", "2", "3"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the output of the following C program? `int a=10, b=20; printf(\"%d\", ++a + --b - a++);`",
+      "answers": ["29", "30", "19", "20"],
+      "correct_answer": 2
+    },
+    {
+      "question": "What is the output of the following C program? ```\n#include<stdio.h>\nvoid main()\n{\n   int x = 1, y = 0;\n   int z = y/x;\n   printf(\"%d\", z);\n}\n```",
+      "answers": ["0", "1", "Garbage value", "Undefined behavior"],
+      "correct_answer": 3
+    },
+    {
+      "question": "What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n    int i = 2;\n    printf(\"%d \", i++ * i++);\n    printf(\"%d\", i);\n    return 0;\n}\n```",
+      "answers": ["8 4", "6 4", "6 5", "8 5"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the output of the following C program? ```\n#include<stdio.h>\nint main()\n{\n    int arr[3][2] = { {2, 4}, {6, 8}, {10, 12} };\n    int (*ptr)[2] = arr;\n    printf(\"%d\", **ptr);\n    return 0;\n}\n```",
+      "answers": ["2", "4", "6", "8"],
+      "correct_answer": 0
+    },
+    {
+      "question": "What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n    int x = 10, y = 5;\n    x = x ^ y;\n    y = x ^ y;\n    x = x ^ y;\n    printf(\"%d %d\", x, y);\n    return 0;\n}\n```",
+      "answers": ["5 10", "10 5", "0 5", "5 0"],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n    char arr[10];\n    printf(\"%d\", sizeof(arr));\n    return 0;\n}\n```",
+      "answers": ["10", "1", "4", "40"],
+      "correct_answer": 0
+    },
+    {
+    "question": "What is the output of the following C program? ```\n#include<stdio.h>\nint main()\n{\n    int i;\n    for(i=0; i<=5; i++)\n    {\n        if(i%2 == 0)\n            continue;\n        printf(\"%d \", i);\n    }\n    return 0;\n}\n```",
+    "answers": ["1 3 5", "0 2 4", "1 2 3 4 5", "1 2 3 4"],
+    "correct_answer": 0
+    },
+    {
+    "question": "What is the output of the following C program? ```\n#include<stdio.h>\nint main()\n{\n    char arr[5] = {'C', 'O', 'D', 'E', '\\0'};\n    printf(\"%s\", arr);\n    return 0;\n}\n```",
+    "answers": ["CODE", "C O D E", "C,O,D,E", "Error"],
+    "correct_answer": 0
+    },
+    {
+    "question": "What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n    int x = 10, y = 5;\n    int *ptr1 = &x, *ptr2 = &y;\n    printf(\"%d \", *ptr1 * *ptr2);\n    printf(\"%d\", *ptr1 / *ptr2);\n    return 0;\n}\n```",
+    "answers": ["50 2", "50 0", "15 2", "15 0"],
+    "correct_answer": 0
+    },
+    {
+    "question": "What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n    int arr[] = {1, 2, 3, 4, 5};\n    int i;\n    for (i = 0; i < sizeof(arr)/sizeof(arr[0]); i++)\n    {\n        printf(\"%d \", *(arr + i));\n    }\n    return 0;\n}\n```",
+    "answers": ["1 2 3 4 5", "1 2 3 4", "0 1 2 3 4", "Error"],
+    "correct_answer": 0
+    },
+    {
+    "question": "What is the output of the following C program? ```\n#include <stdio.h>\nvoid func(int n)\n{\n    if(n > 0)\n    {\n        func(n-1);\n        printf(\"%d \", n);\n        func(n-1);\n    }\n}\n\nint main()\n{\n    func(3);\n    return 0;\n}```",
+    "answers": ["1 2 1 3 1 2 1", "1 2 3 2 1", "1 3 2 1 2 3 1", "1 2 1 3 1"],
+    "correct_answer": 2
+    },
+    {
+    "question": "What is the value of x after the following C code is executed? ```\nint main()\n{\n    int x = 0;\n    int i = 0;\n    for(i = 0; i < 5; i++)\n    {\n        if(i == 3)\n            continue;\n        x++;\n    }\n    return x;\n}```",
+    "answers": ["2", "3", "4", "5"],
+    "correct_answer": 2
+    },
+    {
+    "question": "What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n    int arr[] = {1, 2, 3};\n    int *p = arr;\n    p += 2;\n    printf(\"%d\", *p);\n    return 0;\n}```",
+    "answers": ["1", "2", "3", "Garbage value"],
+    "correct_answer": 2
+    },
+    {
+    "question": "What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n    int i = 0, j = 0;\n    while(i < 10 && j++ < 5)\n    {\n        i++;\n    }\n    printf(\"%d %d\", i, j);\n    return 0;\n}```",
+    "answers": ["5 5", "10 10", "5 6", "10 6"],
+    "correct_answer": 2
+    },
+    {
+    "question": "What is the output of the following C program? ```\n#include <stdio.h>\nint main()\n{\n    char *str1 = \"hello\";\n    char *str2 = \"world\";\n    char *temp = str1;\n    str1 = str2;\n    str2 = temp;\n    printf(\"%s %s\", str1, str2);\n    return 0;\n}```",
+    "answers": ["hello world", "world hello", "h w", "w h"],
+    "correct_answer": 1
+    }
+]
